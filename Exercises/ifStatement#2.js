@@ -2,7 +2,7 @@
 // if hour is betwen 6-12 say goodmoring
 // else hour is bigger than 12 say goodevening
 
-let hour = 17;
+let hour = 23;
 
 // we dont need curly braces when 1 liners
 if (hour >= 0 && hour < 12) 
