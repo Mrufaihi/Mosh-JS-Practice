@@ -5,10 +5,6 @@
 let hour = 23;
 
 // we dont need curly braces when 1 liners
-if (hour >= 0 && hour < 12) 
-  console.log('good morning');
-else if (hour >= 12 && hour < 18) 
-  console.log('good evening');
-else 
-  console.log('good night');
-
+if (hour >= 0 && hour < 12) console.log('good morning');
+else if (hour >= 12 && hour < 18) console.log('good evening');
+else console.log('good night');
